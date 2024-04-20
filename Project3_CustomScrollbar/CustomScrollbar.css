@@ -1,0 +1,35 @@
+/* ALL Selector CSS */ 
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* BODY CSS */ 
+body { 
+    background: black;
+}
+/* .CARD CSS */
+.card { 
+    width: 700px; 
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+    line-height: 29px;
+} 
+/* Scrollbar CSS*/
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb { 
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    border-radius: 20px;
+} 
+
+/* Things I learned from doing this project
+
+
+*/ 
